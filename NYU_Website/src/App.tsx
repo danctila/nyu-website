@@ -1,7 +1,9 @@
+import InformationBar from "./Components/InformationBar";
+
 function App() {
   return (
     <>
-      <div>hello</div>
+      <InformationBar />
     </>
   );
 }
