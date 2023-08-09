@@ -1,4 +1,5 @@
 import InformationBar from "./Components/InformationBar";
+import MainGrid from "./Components/MainGrid";
 import NYUHeader from "./Components/NYUHeader";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <>
       <InformationBar />
       <NYUHeader />
+      <MainGrid />
     </>
   );
 }
