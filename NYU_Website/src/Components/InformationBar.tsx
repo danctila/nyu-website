@@ -4,7 +4,7 @@ const InformationBar = () => {
   return (
     <HStack justify="space-between" bg="white">
       <HStack>
-        <Text paddingLeft="100px" paddingRight="10px" fontWeight="bold">
+        <Text paddingLeft="350px" paddingRight="10px" fontWeight="bold">
           Information For:
         </Text>
         <Button
@@ -63,7 +63,7 @@ const InformationBar = () => {
           Community
         </Button>
       </HStack>
-      <HStack marginRight="100px" bgColor="gray" spacing="0">
+      <HStack marginRight="370px" bgColor="gray" spacing="0">
         <Button
           variant="ghost"
           borderRadius="0px"
