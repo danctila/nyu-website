@@ -1,5 +1,6 @@
-import { HStack, Button, Image, Flex } from "@chakra-ui/react";
-import NYULogo from "..//assets/NYU-Emblem.png";
+import { HStack, Button, Image, Input, Box, Center } from "@chakra-ui/react";
+import NYULogo from "../assets/NYU-Emblem.png";
+import searchIcon1 from "../assets/searchicon1.png";
 
 const NYUHeader = () => {
   return (
@@ -66,6 +67,22 @@ const NYUHeader = () => {
         >
           Research
         </Button>
+      </HStack>
+      <HStack spacing="0">
+        <Input
+          background="white"
+          placeholder="Search"
+          borderRadius="0"
+          width="230px"
+        ></Input>
+        <Center
+          boxSize="40px"
+          background="#220337"
+          _hover={{ background: "#330662" }}
+          as="button"
+        >
+          <Image src={searchIcon1} boxSize="19px" objectFit="cover" />
+        </Center>
       </HStack>
     </HStack>
   );
