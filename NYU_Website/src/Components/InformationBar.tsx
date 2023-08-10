@@ -1,4 +1,4 @@
-import { Box, Button, HStack, Icon, Text } from "@chakra-ui/react";
+import { Button, HStack, Icon, Text } from "@chakra-ui/react";
 import { AiOutlineGlobal } from "react-icons/Ai";
 
 const InformationBar = () => {

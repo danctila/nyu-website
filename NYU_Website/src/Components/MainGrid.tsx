@@ -5,8 +5,8 @@ const MainGrid = () => {
   return (
     <>
       <Grid
-        h="1000px"
-        w="1200px"
+        h="1130px"
+        w="1202px"
         margin="auto"
         padding="5px"
         templateRows="repeat(4, 1fr)"
