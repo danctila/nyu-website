@@ -18,7 +18,7 @@ import youtube from "../assets/youtubeLogo.png";
 const ConnectFooter = () => {
   return (
     <>
-      <Box width="100%" height="250px" bgColor="#220337">
+      <Box width="100%" h="250px" bg="#220337">
         <HStack spacing="70px" paddingTop="25px" justify="center">
           <Link color="white">Search</Link>
           <Link color="white">Campus Map</Link>
@@ -32,27 +32,22 @@ const ConnectFooter = () => {
         <Grid
           h="200px"
           w="1200px"
-          margin="auto"
+          m="auto"
           padding="5px"
           templateRows="repeat(1, 1fr)"
           templateColumns="repeat(3, 1fr)"
-          marginTop="20px"
+          mt="20px"
         >
           <GridItem
             rowSpan={1}
             colSpan={1}
-            height="176px"
+            h="176px"
             borderRight="1px"
             borderTop="1px"
             borderColor="#57068C"
             padding="10px"
           >
-            <Text
-              fontWeight="semibold"
-              fontSize="20px"
-              color="white"
-              marginTop="15px"
-            >
+            <Text fontWeight="semibold" fontSize="20px" color="white" mt="15px">
               CONNECT WITH NYU
             </Text>
             <HStack spacing="20px" paddingTop="10px">
@@ -66,7 +61,7 @@ const ConnectFooter = () => {
           <GridItem
             rowSpan={1}
             colSpan={1}
-            width="600px"
+            w="600px"
             borderTop="1px"
             borderColor="#57068C"
           >
@@ -74,17 +69,12 @@ const ConnectFooter = () => {
               fontWeight="semibold"
               fontSize="20px"
               color="white"
-              marginTop="25px"
-              marginLeft="10px"
+              mt="25px"
+              ml="10px"
             >
               ON THIS SITE
             </Text>
-            <SimpleGrid
-              columns={3}
-              spacingY="10px"
-              marginLeft="15px"
-              marginTop="5px"
-            >
+            <SimpleGrid columns={3} spacingY="10px" ml="15px" mt="5px">
               <Link color="white" fontWeight="light">
                 About NYU
               </Link>
@@ -105,7 +95,7 @@ const ConnectFooter = () => {
           <GridItem
             rowSpan={1}
             colSpan={1}
-            height="176px"
+            h="176px"
             borderLeft="1px"
             borderTop="1px"
             borderColor="#57068C"
@@ -114,12 +104,12 @@ const ConnectFooter = () => {
               fontWeight="semibold"
               fontSize="20px"
               color="white"
-              marginTop="25px"
-              marginLeft="15px"
+              mt="25px"
+              ml="15px"
             >
               MAIN CAMPUSES
             </Text>
-            <VStack align="left" marginLeft="15px" marginTop="10px">
+            <VStack align="left" ml="15px" mt="10px">
               <Link color="white" fontWeight="light">
                 New York
               </Link>

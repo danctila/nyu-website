@@ -8,7 +8,7 @@ const InformationBar = () => {
       bg="white"
       position="fixed"
       zIndex="200"
-      width="100%"
+      w="100%"
     >
       <HStack>
         <Text paddingLeft="350px" paddingRight="10px" fontWeight="bold">
@@ -17,8 +17,8 @@ const InformationBar = () => {
         <Button
           variant="ghost"
           borderRadius="0px"
-          width="85px"
-          height="50px"
+          w="85px"
+          h="50px"
           color="#57068c"
           _hover={{ background: "#57068C", color: "white" }}
           fontWeight="light"
@@ -28,8 +28,8 @@ const InformationBar = () => {
         <Button
           variant="ghost"
           borderRadius="0px"
-          width="70px"
-          height="50px"
+          w="70px"
+          h="50px"
           color="#57068c"
           _hover={{ background: "#57068C", color: "white" }}
           fontWeight="light"
@@ -39,8 +39,8 @@ const InformationBar = () => {
         <Button
           variant="ghost"
           borderRadius="0px"
-          width="70px"
-          height="50px"
+          w="70px"
+          h="50px"
           color="#57068c"
           _hover={{ background: "#57068C", color: "white" }}
           fontWeight="light"
@@ -50,8 +50,8 @@ const InformationBar = () => {
         <Button
           variant="ghost"
           borderRadius="0px"
-          width="95px"
-          height="50px"
+          w="95px"
+          h="50px"
           color="#57068c"
           _hover={{ background: "#57068C", color: "white" }}
           fontWeight="light"
@@ -61,8 +61,8 @@ const InformationBar = () => {
         <Button
           variant="ghost"
           borderRadius="0px"
-          width="105px"
-          height="50px"
+          w="105px"
+          h="50px"
           color="#57068c"
           _hover={{ background: "#57068C", color: "white" }}
           fontWeight="light"
@@ -70,13 +70,13 @@ const InformationBar = () => {
           Community
         </Button>
       </HStack>
-      <HStack marginRight="370px" bgColor="gray" spacing="0">
+      <HStack marginRight="370px" bg="gray" spacing="0">
         <Button
           variant="ghost"
           borderRadius="0px"
-          width="190px"
-          height="50px"
-          bgColor="#8900E1"
+          w="190px"
+          h="50px"
+          bg="#8900E1"
           color="white"
           _hover={{ bgColor: "#330662" }}
         >
@@ -87,9 +87,9 @@ const InformationBar = () => {
           borderRadius="0px"
           width="130px"
           height="50px"
-          bgColor="#220337"
+          bg="#220337"
           color="white"
-          _hover={{ bgColor: "#330662" }}
+          _hover={{ bg: "#330662" }}
           justifyContent="center"
         >
           <Icon as={AiOutlineGlobal} boxSize="25px"></Icon>

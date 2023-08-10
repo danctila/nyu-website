@@ -9,7 +9,7 @@ const MainGrid = () => {
       <Grid
         h="1130px"
         w="1202px"
-        margin="auto"
+        m="auto"
         templateRows="repeat(4, 1fr)"
         templateColumns="repeat(5, 1fr)"
         gap={2}
@@ -27,9 +27,9 @@ const MainGrid = () => {
           _hover={{ background: "white", color: "#57068C" }}
         >
           <Text
-            width="200px"
-            margin="auto"
-            marginTop="-100px"
+            w="200px"
+            m="auto"
+            mt="-100px"
             fontWeight="bold"
             lineHeight="35px"
           >
@@ -38,9 +38,9 @@ const MainGrid = () => {
         </GridItem>
         <GridItem rowSpan={1} colSpan={1} as="button" bg="#220337">
           <Text
-            width="200px"
-            margin="auto"
-            marginTop="-100px"
+            w="200px"
+            m="auto"
+            mt="-100px"
             fontWeight="light"
             fontSize="15px"
             lineHeight="30px"
@@ -59,9 +59,9 @@ const MainGrid = () => {
           _hover={{ background: "white", color: "#57068C" }}
         >
           <Text
-            width="200px"
-            margin="auto"
-            marginTop="-100px"
+            w="200px"
+            m="auto"
+            mt="-100px"
             fontWeight="bold"
             lineHeight="35px"
           >
@@ -70,9 +70,9 @@ const MainGrid = () => {
         </GridItem>
         <GridItem rowSpan={1} colSpan={1} as="button" bg="#220337">
           <Text
-            width="200px"
-            margin="auto"
-            marginTop="-100px"
+            w="200px"
+            m="auto"
+            mt="-100px"
             fontWeight="light"
             fontSize="15px"
             lineHeight="30px"
@@ -92,9 +92,9 @@ const MainGrid = () => {
           _hover={{ background: "white", color: "#57068C" }}
         >
           <Text
-            width="200px"
-            margin="auto"
-            marginTop="-100px"
+            w="200px"
+            m="auto"
+            mt="-100px"
             fontWeight="bold"
             lineHeight="35px"
           >
@@ -110,15 +110,15 @@ const MainGrid = () => {
           _hover={{ background: "white", color: "#8900e1" }}
         >
           <Text
-            width="200px"
-            margin="auto"
-            marginTop="-100px"
+            w="200px"
+            m="auto"
+            mt="-100px"
             fontWeight="bold"
             lineHeight="25px"
           >
             Follow on Instagram
           </Text>
-          <Text width="200px" margin="auto" marginTop="15px" fontWeight="light">
+          <Text w="200px" m="auto" mt="15px" fontWeight="light">
             @danctila
           </Text>
         </GridItem>
@@ -131,9 +131,9 @@ const MainGrid = () => {
           _hover={{ background: "white", color: "#57068C" }}
         >
           <Text
-            width="200px"
-            margin="auto"
-            marginTop="-100px"
+            w="200px"
+            m="auto"
+            mt="-100px"
             fontWeight="bold"
             lineHeight="35px"
           >
@@ -142,9 +142,9 @@ const MainGrid = () => {
         </GridItem>
         <GridItem rowSpan={1} colSpan={1} as="button" bg="#220337">
           <Text
-            width="200px"
-            margin="auto"
-            marginTop="-100px"
+            w="200px"
+            m="auto"
+            mt="-100px"
             fontWeight="light"
             fontSize="15px"
             lineHeight="30px"
@@ -162,7 +162,7 @@ const MainGrid = () => {
           bg="#8900e1"
           _hover={{ background: "white", color: "#8900e1" }}
         >
-          <Text width="200px" margin="auto" fontWeight="normal" fontSize="14px">
+          <Text w="200px" m="auto" fontWeight="normal" fontSize="14px">
             When it was time for Dylan Anctil (NYU 2027) to graduate with his
             master's in Computer Science-and to bid farewell to the club of...
           </Text>
@@ -178,7 +178,7 @@ const MainGrid = () => {
           bg="#8900e1"
           _hover={{ background: "white", color: "#8900e1" }}
         >
-          <Text width="200px" margin="auto" fontWeight="normal" fontSize="14px">
+          <Text w="200px" m="auto" fontWeight="normal" fontSize="14px">
             As a grad student at NYU, Dylan Anctil cherished his locker at
             bobst. When he graduated, it took three suitcase...
           </Text>
@@ -192,9 +192,9 @@ const MainGrid = () => {
           _hover={{ background: "white", color: "#57068C" }}
         >
           <Text
-            width="200px"
-            margin="auto"
-            marginTop="-100px"
+            w="200px"
+            m="auto"
+            mt="-100px"
             fontWeight="bold"
             lineHeight="35px"
           >
@@ -203,9 +203,9 @@ const MainGrid = () => {
         </GridItem>
         <GridItem rowSpan={1} colSpan={1} as="button" bg="#220337">
           <Text
-            width="200px"
-            margin="auto"
-            marginTop="-100px"
+            w="200px"
+            m="auto"
+            mt="-100px"
             fontWeight="light"
             fontSize="15px"
             lineHeight="30px"

@@ -6,21 +6,21 @@ const NYUHeader = () => {
   return (
     <HStack
       bg="#57068C"
-      height="115"
-      width="100%"
+      h="115"
+      w="100%"
       position="fixed"
       zIndex="199"
-      marginTop="48px"
+      mt="48px"
     >
-      <Image src={NYULogo} height="72x" width="140px" marginLeft="360px" />
-      <HStack spacing="0" backgroundColor="#57068C">
+      <Image src={NYULogo} h="72x" w="140px" ml="360px" />
+      <HStack spacing="0" bg="#57068C">
         <Button
           variant="ghost"
           borderRadius="0px"
-          width="150px"
-          height="115px"
+          w="150px"
+          h="115px"
           color="white"
-          backgroundColor="#57068C"
+          bg="#57068C"
           _hover={{ background: "#330662", color: "white" }}
           fontWeight="normal"
         >
@@ -29,10 +29,10 @@ const NYUHeader = () => {
         <Button
           variant="ghost"
           borderRadius="0px"
-          width="150px"
-          height="115px"
+          w="150px"
+          h="115px"
           color="white"
-          backgroundColor="#57068C"
+          bg="#57068C"
           _hover={{ background: "#330662", color: "white" }}
           fontWeight="normal"
         >
@@ -41,10 +41,10 @@ const NYUHeader = () => {
         <Button
           variant="ghost"
           borderRadius="0px"
-          width="150px"
-          height="115px"
+          w="150px"
+          h="115px"
           color="white"
-          backgroundColor="#57068C"
+          bg="#57068C"
           _hover={{ background: "#330662", color: "white" }}
           fontWeight="normal"
         >
@@ -53,10 +53,10 @@ const NYUHeader = () => {
         <Button
           variant="ghost"
           borderRadius="0px"
-          width="180px"
-          height="115px"
+          w="180px"
+          h="115px"
           color="white"
-          backgroundColor="#57068C"
+          bg="#57068C"
           _hover={{ background: "#330662", color: "white" }}
           fontWeight="normal"
         >
@@ -65,10 +65,10 @@ const NYUHeader = () => {
         <Button
           variant="ghost"
           borderRadius="0px"
-          width="150px"
-          height="115px"
+          w="150px"
+          h="115px"
           color="white"
-          backgroundColor="#57068C"
+          bg="#57068C"
           _hover={{ background: "#330662", color: "white" }}
           fontWeight="normal"
         >
@@ -80,7 +80,7 @@ const NYUHeader = () => {
           background="white"
           placeholder="Search"
           borderRadius="0"
-          width="230px"
+          w="230px"
         ></Input>
         <Center
           boxSize="40px"
