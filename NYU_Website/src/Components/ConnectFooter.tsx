@@ -5,7 +5,9 @@ import {
   HStack,
   Image,
   Link,
+  SimpleGrid,
   Text,
+  VStack,
 } from "@chakra-ui/react";
 import instagram from "../assets/instagramLogo.png";
 import twitter from "../assets/twitterLogo.png";
@@ -34,20 +36,22 @@ const ConnectFooter = () => {
           padding="5px"
           templateRows="repeat(1, 1fr)"
           templateColumns="repeat(3, 1fr)"
+          marginTop="20px"
         >
           <GridItem
             rowSpan={1}
             colSpan={1}
-            bg="tomato"
+            height="176px"
             borderRight="1px"
             borderTop="1px"
-            borderColor="white"
+            borderColor="#57068C"
+            padding="10px"
           >
             <Text
               fontWeight="semibold"
               fontSize="20px"
               color="white"
-              marginTop="20px"
+              marginTop="15px"
             >
               CONNECT WITH NYU
             </Text>
@@ -62,19 +66,71 @@ const ConnectFooter = () => {
           <GridItem
             rowSpan={1}
             colSpan={1}
-            bg="tomato"
             width="600px"
             borderTop="1px"
-            borderColor="white"
-          />
+            borderColor="#57068C"
+          >
+            <Text
+              fontWeight="semibold"
+              fontSize="20px"
+              color="white"
+              marginTop="25px"
+              marginLeft="10px"
+            >
+              ON THIS SITE
+            </Text>
+            <SimpleGrid
+              columns={3}
+              spacingY="10px"
+              marginLeft="15px"
+              marginTop="5px"
+            >
+              <Link color="white" fontWeight="light">
+                About NYU
+              </Link>
+              <Link color="white" fontWeight="light">
+                Academics
+              </Link>
+              <Link color="white" fontWeight="light">
+                Research
+              </Link>
+              <Link color="white" fontWeight="light">
+                Admissions
+              </Link>
+              <Link color="white" fontWeight="light">
+                University Life
+              </Link>
+            </SimpleGrid>
+          </GridItem>
           <GridItem
             rowSpan={1}
             colSpan={1}
-            bg="tomato"
+            height="176px"
             borderLeft="1px"
             borderTop="1px"
-            borderColor="white"
-          />
+            borderColor="#57068C"
+          >
+            <Text
+              fontWeight="semibold"
+              fontSize="20px"
+              color="white"
+              marginTop="25px"
+              marginLeft="15px"
+            >
+              MAIN CAMPUSES
+            </Text>
+            <VStack align="left" marginLeft="15px" marginTop="10px">
+              <Link color="white" fontWeight="light">
+                New York
+              </Link>
+              <Link color="white" fontWeight="light">
+                Abu Dhabi
+              </Link>
+              <Link color="white" fontWeight="light">
+                Shanghai
+              </Link>
+            </VStack>
+          </GridItem>
         </Grid>
       </Box>
     </>
