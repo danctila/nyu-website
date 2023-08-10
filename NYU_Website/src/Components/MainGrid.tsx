@@ -10,6 +10,7 @@ const MainGrid = () => {
       templateRows="repeat(4, 1fr)"
       templateColumns="repeat(5, 1fr)"
       gap={2}
+      paddingTop={"173px"}
     >
       <GridItem rowSpan={2} colSpan={2} bg="tomato" />
       <GridItem rowSpan={1} colSpan={1} bg="tomato" />

@@ -2,7 +2,13 @@ import { Button, HStack, Text } from "@chakra-ui/react";
 
 const InformationBar = () => {
   return (
-    <HStack justify="space-between" bg="white">
+    <HStack
+      justify="space-between"
+      bg="white"
+      position="fixed"
+      zIndex="200"
+      width="100%"
+    >
       <HStack>
         <Text paddingLeft="350px" paddingRight="10px" fontWeight="bold">
           Information For:

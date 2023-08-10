@@ -1,10 +1,17 @@
-import { HStack, Button, Image, Input, Box, Center } from "@chakra-ui/react";
+import { HStack, Button, Image, Input, Center } from "@chakra-ui/react";
 import NYULogo from "../assets/NYU-Emblem.png";
 import searchIcon1 from "../assets/searchicon1.png";
 
 const NYUHeader = () => {
   return (
-    <HStack bg="#57068C" height="115" width="fit">
+    <HStack
+      bg="#57068C"
+      height="115"
+      width="100%"
+      position="fixed"
+      zIndex="199"
+      marginTop="48px"
+    >
       <Image src={NYULogo} height="72x" width="140px" marginLeft="360px" />
       <HStack spacing="0" backgroundColor="#57068C">
         <Button
