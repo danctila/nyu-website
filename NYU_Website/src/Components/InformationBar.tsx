@@ -1,4 +1,5 @@
-import { Button, HStack, Text } from "@chakra-ui/react";
+import { Box, Button, HStack, Icon, Text } from "@chakra-ui/react";
+import { AiOutlineGlobal } from "react-icons/Ai";
 
 const InformationBar = () => {
   return (
@@ -81,17 +82,19 @@ const InformationBar = () => {
         >
           Login to NYU Home
         </Button>
-        <Button
-          variant="ghost"
+        <HStack
+          as="button"
           borderRadius="0px"
-          width="80px"
+          width="130px"
           height="50px"
           bgColor="#220337"
           color="white"
           _hover={{ bgColor: "#330662" }}
+          justifyContent="center"
         >
-          All NYU
-        </Button>
+          <Icon as={AiOutlineGlobal} boxSize="25px"></Icon>
+          <Text fontWeight="semibold">All NYU</Text>
+        </HStack>
       </HStack>
     </HStack>
   );
