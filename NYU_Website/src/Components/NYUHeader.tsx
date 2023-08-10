@@ -1,6 +1,6 @@
 import { HStack, Button, Image, Input, Center } from "@chakra-ui/react";
 import NYULogo from "../assets/NYU-Emblem.png";
-import searchIcon1 from "../assets/searchicon1.png";
+import searchIcon1 from "../assets/searchicon.png";
 
 const NYUHeader = () => {
   return (
