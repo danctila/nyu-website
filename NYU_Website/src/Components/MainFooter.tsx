@@ -13,7 +13,7 @@ const MainFooter = () => {
             fontSize="15px"
             color="white"
             paddingLeft="10px"
-            paddingRight="10px"
+            pr="10px"
           >
             |
           </Text>
